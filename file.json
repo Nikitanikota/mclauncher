@@ -1,0 +1,12 @@
+{
+    "minimumVersion": 1,
+    "packages": [
+        {
+            "name": "test",
+            "title": "testpack",
+            "version": "2020-11-24-17-05-30",
+            "location": "test.json",
+            "priority": 1
+        }
+    ]
+}
