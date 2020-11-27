@@ -9,6 +9,7 @@ py file.py > output.json
 copy ids.txt minecraftversions
 copy urls.txt minecraftversions
 copy curlf.bat minecraftversions
+copy file2.py minecraftversions
 cd minecraftversions
 for /f "tokens=*" %%a in (ids.txt) do (
   mkdir %%a > nul

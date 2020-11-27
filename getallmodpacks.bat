@@ -13,8 +13,8 @@ ping localhost -n 10 > nul
 
 cls
 wsl php packages.php > packages.json
-git add latest.json
-git add packages.json
+git add *.json
+git add package.json
 git add launcher.jar.pack
 git add objects
 git add libraries

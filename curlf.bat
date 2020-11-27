@@ -4,10 +4,15 @@ setlocal EnableDelayedExpansion
   FOR /F "delims=" %%A in (urls.txt) DO (
     cls
     set /p lineFromFile2=
-    echo curl %%A -o !lineFromFile2!\!lineFromFile2!.json>!lineFromFile2!.bat
-    echo exit>>!lineFromFile2!.bat
+    curl %%A -o !lineFromFile2!\!lineFromFile2!.json
+    copy !lineFromFile2!\!lineFromFile2!.json file.json
+    copy file2.py !lineFromFile2!\!lineFromFile2!\file2.py
+    py !lineFromFile2!\!lineFromFile2!\file2.py
+    set file=< !lineFromFile2!\!lineFromFile2!\download.txt
+    curl %file% -o !lineFromFile2!\D!lineFromFile2!.json
     ping localhost -n 2 > nul
-    start /min !lineFromFile2!.bat
+
+
   )
 )
 pause
