@@ -2,6 +2,55 @@
     "minimumVersion": 1,
     "packages": [
         {
+            "name": "1.12.2",
+            "title": "1.12.2",
+            "version": "2020-11-27-23-48-25",
+            "location": "1.12.2.json",
+            "priority": 1
+        },
+        {
+            "name": "1.14.1",
+            "title": "1.14.1",
+            "version": "2020-11-27-23-48-29",
+            "location": "1.14.1.json",
+            "priority": 1
+        },
+        {
+            "name": "1.14.2",
+            "title": "1.14.2",
+            "version": "2020-11-27-23-48-32",
+            "location": "1.14.2.json",
+            "priority": 1
+        },
+        {
+            "name": "1.14.3",
+            "title": "1.14.3",
+            "version": "2020-11-27-23-48-35",
+            "location": "1.14.3.json",
+            "priority": 1
+        },
+        {
+            "name": "1.14.4",
+            "title": "1.14.4",
+            "version": "2020-11-27-23-48-38",
+            "location": "1.14.4.json",
+            "priority": 1
+        },
+        {
+            "name": "1.15.2",
+            "title": "1.15.2",
+            "version": "2020-11-27-23-48-42",
+            "location": "1.15.2.json",
+            "priority": 1
+        },
+        {
+            "name": "1.16.4",
+            "title": "1.16.4",
+            "version": "2020-11-27-23-48-45",
+            "location": "1.16.4.json",
+            "priority": 1
+        },
+        {
             "name": "1.8.9",
             "title": "1.8.9",
             "version": "2020-11-27-23-05-01",
