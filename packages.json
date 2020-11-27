@@ -1,4 +1,19 @@
 {
     "minimumVersion": 1,
-    "packages": []
+    "packages": [
+        {
+            "name": "1.8.9",
+            "title": "1.8.9",
+            "version": "2020-11-27-23-05-01",
+            "location": "1.8.9.json",
+            "priority": 1
+        },
+        {
+            "name": "FurryPack",
+            "title": "FurryPack",
+            "version": "2020-11-27-23-02-13",
+            "location": "furrypack.json",
+            "priority": 1
+        }
+    ]
 }
